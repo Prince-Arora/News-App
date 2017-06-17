@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        tools:context="com.example.laptop.newsapp.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/Politics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Politics" />
+
+        <Button
+            android:id="@+id/Sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sports" />
+
+        <Button
+            android:id="@+id/Entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entertainment"
+
+            />
+
+        <Button
+            android:id="@+id/Weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather" />
+
+        <Button
+            android:id="@+id/Gadget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gadget" />
+
+        <Button
+            android:id="@+id/Fashion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fashion" />
+
+        <Button
+            android:id="@+id/International"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="International" />
+
+        <Button
+            android:id="@+id/National"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National" />
+
+    </LinearLayout>
+</ScrollView>
